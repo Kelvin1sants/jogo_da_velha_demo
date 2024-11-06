@@ -1,0 +1,15 @@
+#tabuleiro{
+    width:600px;
+    height:600px;
+    border: 2px color #000 solid;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+}
+    
+.casa{
+    width:200px;
+    height:200px;
+    background-color: #c4c4c4;
+    border: 1px #fff dotted;
+}
